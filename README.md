@@ -1,4 +1,4 @@
-# 🐾 **Commission Info**
+# 🐾 **Pixel Art Commission Info**
 > Artwork examples, price sheets, and terms of service.
 
 ###  Visit the Website
