@@ -551,6 +551,8 @@ footer {
 
 .btn-commissions {
     background: #f9b9ae; 
+    z-index: 2;
+    
 }
 
 .btn-icon svg {
@@ -561,6 +563,26 @@ footer {
     display: block;
     transition: fill 0.3s ease, color 0.3s ease; 
 }
+
+
+.status-badge {
+    max-width: 60%;
+    margin: auto;
+    margin-top: -4px;
+    background: #fff;      
+    color: #81c784;     
+    border-radius: 12px;
+    font-weight: 700;
+    font-size: 0.85rem;
+    padding: 0.4rem 1.5rem;
+    border: 1px dashed #f9b9ae;     
+    position: relative;
+    z-index: -1;            
+    width: 85%;            
+    text-align: center;
+}
+
+
 
 
 /* Twitter */

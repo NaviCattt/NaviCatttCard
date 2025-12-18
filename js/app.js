@@ -146,3 +146,28 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 });
+/* 4. Dynamic Status Check */
+document.addEventListener('DOMContentLoaded', () => {
+    fetch('status.json')
+        .then(response => response.json())
+        .then(data => {
+            const isOpen = data.commissionsOpen;
+            const statusText = isOpen ? data.statusTextOpen : data.statusTextClosed;
+            const statusClass = isOpen ? 'open' : 'closed';
+
+            // 1. Update Index Badge (if present)
+            const indexBadge = document.getElementById('index-status-badge');
+            if (indexBadge) {
+                indexBadge.textContent = ` Commissions ${statusText} `;
+                indexBadge.classList.add(statusClass);
+            }
+
+            // 2. Update Commissions Page Text (if present)
+            const commPageStatus = document.getElementById('commissions-page-status');
+            if (commPageStatus) {
+                commPageStatus.textContent = statusText;
+                commPageStatus.classList.add(statusClass);
+            }
+        })
+        .catch(error => console.error('Error loading status:', error));
+});
