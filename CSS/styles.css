@@ -134,6 +134,7 @@ a:hover {
 }
 
 .page-header h1 {
+    font-family: 'Fredoka', sans-serif;
     font-size: 2.5rem;
     margin-bottom: 0.5rem;
 }
@@ -158,46 +159,6 @@ footer {
 /* 
    --- Sections ---
 */
-
-/* 
-   --- Inicio.html --- 
-*/
-
-/* Main Card */
-.profile-card {
-    background-color: var(--card-bg);
-    max-width: 500px;
-    margin: 2rem auto;
-    padding: 2rem;
-    border-radius: 20px;
-    box-shadow: var(--shadow-soft);
-    text-align: center;
-    border: 1px solid var(--border-color);
-}
-
-.profile-image {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    border: 4px solid var(--bg-color); 
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    object-fit: cover; 
-    margin-bottom: 1rem;
-}
-
-.profile-title {
-    font-size: 2rem;
-    margin-bottom: 0.2rem;
-}
-
-.profile-subtitle {
-    font-size: 1.2rem;
-    color: var(--accent-color);
-    margin-bottom: 1.5rem;
-    font-weight: 600;
-}
-
-
 
 /* 
    --- Commissions.html --- 
@@ -533,7 +494,7 @@ footer {
 }
 
 .cat-title {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Fredoka', sans-serif;
     font-weight: 700;
     font-size: 3.5rem;
     color: #4a3b32; 
@@ -914,6 +875,7 @@ footer {
 }
 
 .terms-header h1 {
+    font-family: 'Fredoka', sans-serif;
     font-size: 2.5rem;
     color: var(--text-primary);
     text-align: center;

@@ -32,7 +32,7 @@ customElements.define("app-navbar", AppNavbar);
 class AppFooter extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
-        <footer style="text-align: center; padding: 2rem; margin-top: 3rem; border-top: 1px dashed var(--accent-color); color: var(--text-secondary);">
+        <footer style="text-align: center; font-weight: 600; padding: 2rem; margin-top: 3rem; border-top: 1px dashed var(--accent-color); color: var(--text-secondary);">
             <p>
             
             </p>
