@@ -5,7 +5,7 @@ class AppNavbar extends HTMLElement {
     this.innerHTML = `
         <nav class="nav-menu">
             <ul>
-                <li><a href="Inicio.html">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="Commissions.html">Commissions</a></li>
                 <li><a href="Terms.html">Terms & Conditions</a></li>
             </ul>
